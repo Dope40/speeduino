@@ -174,6 +174,8 @@ void boostControl()
           currentStatus.flexBoostCorrection = 0;
         }
 
+        // insert boost gear correction here
+
         if(currentStatus.boostTarget > 0)
         {
           //This only needs to be run very infrequently, once every 16 calls to boostControl(). This is approx. once per second
